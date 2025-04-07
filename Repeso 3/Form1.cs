@@ -16,5 +16,23 @@ namespace Repeso_3
         {
             InitializeComponent();
         }
+
+        private void btnPropietario_Click(object sender, EventArgs e)
+        {
+            FormPropietario formPropietario = new FormPropietario();
+            formPropietario.Show();
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            FormReporte formReporte = new FormReporte();
+            formReporte.Show();
+        }
+
+        private void btnPropiedad_Click(object sender, EventArgs e)
+        {
+            FormPropiedad formPropiedad = new FormPropiedad();
+            formPropiedad.Show();
+        }
     }
 }
